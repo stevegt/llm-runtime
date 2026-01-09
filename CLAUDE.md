@@ -6,6 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **llm-runtime** is a secure command interpreter that enables Large Language Models to interact with local filesystems and execute sandboxed commands. It parses special XML-like commands from LLM output (`<open>`, `<write>`, `<exec>`, `<search>`) and executes them with security constraints including path validation, Docker isolation, and audit logging.
 
+## Development Guidelines
+
+**Documentation and Code Style**:
+- Do not use icons, emoji, or decorative Unicode characters in documentation or code unless specifically requested
+- Keep documentation clear, concise, and professional
+- Use standard ASCII characters for all technical content
+
 ## Development Commands
 
 ### Building
